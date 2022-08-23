@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "Sacramento-Regular";
+    src: url(../font/Sacramento-Regular.ttf);
+}
+@font-face {
+    font-family: "MontserratAlternates-Bold";
+    src: url(../font/MontserratAlternates-Bold.ttf);
+}
+@font-face {
+    font-family: "Allura-Regular";
+    src: url(../font/Allura-Regular.ttf);
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding-bottom: 15px;
+}
+.gradient-background {
+    background: linear-gradient(300deg,rgba(83, 3, 117, 0.911),#1e038b,#550214);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+h1{
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    margin: 0;
+    padding: 0 45px 0 45px;
+    font-family: Allura-Regular;
+    
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: MontserratAlternates-Bold;
+    margin: 5px 0 5px 0;
+}
+p{
+    color: white;
+}
+#main #container #select-ataque{
+    text-align: center;
+    margin: 4px;
+    
+}
+#main #container #select-ataque #button-ataque{
+    margin-top: 10px;
+}
+#main #container #select-ataque #bt-fuego{
+    background-color: rgba(243, 135, 116, 0.854);
+    transition: transform 0.3s ease 0s;
+}
+#main #container #select-ataque #bt-fuego:hover{
+    background-color: rgba(184, 60, 38, 0.854);
+    transform: scale(1.1);
+}
+#main #container #select-ataque #bt-fuego:active{
+    background-color: rgba(96, 21, 8, 0.854);
+}
+#main #container #select-ataque #bt-agua{
+    background-color: rgba(116, 167, 243, 0.854);
+    transition: transform 0.3s ease 0s;
+}
+#main #container #select-ataque #bt-agua:hover{
+    background-color: rgba(50, 100, 174, 0.854);
+    transform: scale(1.1);
+}
+#main #container #select-ataque #bt-agua:active{
+    background-color: rgba(9, 38, 80, 0.854);
+}
+#main #container #select-ataque #bt-tierra{
+    background-color: rgba(145, 88, 32, 0.854);
+    transition: transform 0.3s ease 0s;
+}
+#main #container #select-ataque #bt-tierra:hover{
+    background-color: rgba(105, 60, 15, 0.854);
+    transform: scale(1.1);
+}
+#main #container #select-ataque #bt-tierra:active{
+    background-color: rgba(81, 44, 6, 0.854);
+}
+#main #container #select-ataque p{
+    text-align: center;
+    font-size: 35px;
+    margin: 3px;
+    
+}
+.avatar-img{
+  width: 300px;
+  height: 300px;
+}
+.bt-ataque{
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.250);
+    
+}
+#main #container #main-text{
+    background-color: rgba(10, 36, 83, 0.854);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.250);
+}
+.main-avatar{
+    background-color: white;
+    margin: 13px;
+    padding: 13px;  
+    display: inline-block;
+    width: 300px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.250);
+    border-radius: 15px;
+    
+}
+#main #container #avatar-shop{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0;
+}
+#main #container #avatar-shop #main-avatar-1{
+    transition: transform 0.5s ease 0s;
+}
+#main #container #avatar-shop #main-avatar-1:hover{
+    transform: scale(1.08);
+}
+#main #container #avatar-shop #main-avatar-2{
+    transition: transform 0.5s ease 0s;
+}
+#main #container #avatar-shop #main-avatar-2:hover{
+    transform: scale(1.08);
+}
+#main #container #avatar-shop #main-avatar-3{
+    transition: transform 0.5s ease 0s;
+}
+#main #container #avatar-shop #main-avatar-3:hover{
+    transform: scale(1.08);
+}
+#main #container #avatar-shop #main-avatar-4{
+    transition: transform 0.5s ease 0s;
+}
+#main #container #avatar-shop #main-avatar-4:hover{
+    transform: scale(1.08);
+}
+#main #container #avatar-shop #main-avatar-5{
+    transition: transform 0.5s ease 0s;
+}
+#main #container #avatar-shop #main-avatar-5:hover{
+    transform: scale(1.08);
+}
+#main #container #avatar-shop #main-avatar-6{
+    transition: transform 0.5s ease 0s;
+}
+#main #container #avatar-shop #main-avatar-6:hover{
+    transform: scale(1.08);
+}
+#main #container #avatar-shop #main-avatar-7{
+    transition: transform 0.5s ease 0s;
+}
+#main #container #avatar-shop #main-avatar-7:hover{
+    transform: scale(1.08);
+}
+#main #container #avatar-shop p{
+    color: black;
+    text-align: left;
+}
+#main #container #select-avatar #avatar-button{
+    text-align: center;
+    margin: 25px 0 0 0;   
+}
+#main #container #select-avatar #bt-select-avatar{
+    font-size: 20px;
+}
+#main #container #select-avatar #bt-select-avatar:hover{
+    background-color: rgb(185, 185, 183);
+}
+#main #container #select-avatar #bt-select-avatar:active{
+    background-color: rgb(131, 131, 130);
+}
+#main #container #battle-messages{
+    text-align: center;
+}
+#main #container #battle-messages p{
+    font-size: 35px;
+}
