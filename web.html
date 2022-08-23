@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Juego Web para entrenar el pensamiento lógico. Creado a partir del curso de Programación Básica de Platzi">
+        <meta name="author" content="githup/mybes00">
+        <meta name="keywords" content="mokepon, juego web, como hacer un juego web, juego platzi, juego web platzi">
+        <title>MokePon</title>
+        <link rel="stylesheet" href="css/web.css">
+        <link rel="stylesheet" href="css/buttonMain.css">
+        <link rel="icon" href="icon.png">
+        <script src="./js/web.js"></script>
+    </head>
+
+    <body class="gradient-background">
+        <div id="main">
+            <div id="container">
+                <div id="main-text"><h1>MokePon</h1></div>
+                <div id="select-avatar">
+                    <h2>Elige tu avatar</h2>
+            
+                    <div id="avatar-shop">
+                        <div id="main-avatar-1" class="main-avatar">
+                            <label for="M1"><img src="img/m1.jpg" alt="avatar-img-1" class="avatar-img"></label><br>
+                            <input type="radio" name="avatar" id="M1"/><br>
+                            <label for="M1">Doctila</label>
+                            <p>Puede atacar a sus enemigos usando FUEGO y TIERRA</p>
+                        </div>
+                        <div id="main-avatar-2" class="main-avatar">
+                            <label for="M2"><img src="img/m2.jpg" alt="avatar-img-1" class="avatar-img"></label><br>
+                            <input type="radio" name="avatar" id="M2"/><br>
+                            <label for="M2">Kramp</label><br>
+                            <p>Puede atacar a sus enemigos usando TIERRA</p>
+                        </div>
+                        <div id="main-avatar-3" class="main-avatar">
+                            <label for="M3"><img src="img/m3.jpg" alt="avatar-img-1" class="avatar-img"></label><br>
+                            <input type="radio" name="avatar" id="M3"/><br>
+                            <label for="M3">Loys</label><br>
+                            <p>Puede atacar a sus enemigos usando AGUA y TIERRA</p>
+                        </div>
+                        <div id="main-avatar-4" class="main-avatar">
+                            <label for="M4"><img src="img/m4.jpg" alt="avatar-img-1" class="avatar-img"></label><br>
+                            <input type="radio" name="avatar" id="M4"/><br>
+                            <label for="M4">Nubia</label><br>
+                            <p>Puede atacar a sus enemigos usando FUEGO y AGUA</p>
+                        </div>
+                        <div id="main-avatar-5" class="main-avatar">
+                            <label for="M5"><img src="img/m5.jpg" alt="avatar-img-1" class="avatar-img"></label><br>
+                            <input type="radio" name="avatar" id="M5"/><br>
+                            <label for="M5">Markel</label><br>
+                            <p>Puede atacar a sus enemigos usando FUEGO</p>
+                        </div>
+                        <div id="main-avatar-6" class="main-avatar">
+                            <label for="M6"><img src="img/m6.jpg" alt="avatar-img-1" class="avatar-img"></label><br>
+                            <input type="radio" name="avatar" id="M6"/><br>
+                            <label for="M6">Cyra</label><br>
+                            <p>Puede atacar a sus enemigos usando AGUA</p>
+                        </div>
+                        <div id="main-avatar-7" class="main-avatar">
+                            <label for="M7"><img src="img/m7.jpg" alt="avatar-img-1" class="avatar-img"></label><br>
+                            <input type="radio" name="avatar" id="M7"/><br>
+                            <label for="M7">Carnage</label><br>
+                            <p>Puede atacar a sus enemigos usando FUEGO, AGUA y TIERRA</p>
+                        </div>
+            
+                    </div>
+                    <div id="avatar-button">
+                        <button id="bt-select-avatar" class="buttonMainAnimation">Seleccionar</button>
+                    </div>
+                </div>
+                <div id="select-ataque">
+                    <h2>Selecciona tu ataque</h2>
+                    <p><strong>Has elegido como avatar a <span id="sp-myM"></span>, tienes <span id="sp-pLife">3</span> vidas</strong></p>
+                    <p><strong>El enemigo ha elegido a <span id="sp-enemyM"></span>, tiene <span id="sp-eLife">3</span> vidas</strong></p>
+                    <div id="button-ataque">
+                        <button id="bt-fuego" class="bt-ataque">Fuego 🔥</button>
+                        <button id="bt-agua" class="bt-ataque">Agua 💧</button>
+                        <button id="bt-tierra" class="bt-ataque">Tierra 🌱</button>
+                    </div>
+                </div>
+                <div id="battle-messages">
+                    <p><span id="sp-battle"></span></p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
