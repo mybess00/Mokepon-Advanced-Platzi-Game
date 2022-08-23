@@ -1,0 +1,64 @@
+            .buttonMainAnimation
+            .buttonMainAnimation *
+            .buttonsF:after
+            .buttonsF:before
+            .buttonsF:after
+            .buttonsF:before{
+                border: 0 solid;
+                box-sizing: border-box;
+            }
+            .buttonsF{
+                -webkit-tap-highlight-color: transparent;
+                -webkit-appearance: button;
+                background-color: #000;
+                background-image: none;
+                color: #fff;
+                cursor: pointer;
+                font-size: 100%;
+                line-height: 1.5;
+                margin: 0;
+                -webkit-mask-image: -webkit-radial-gradient(#000, rgb(93, 73, 165));
+                padding: 0;
+            }
+            .buttonsF:disabled{
+                cursor: default;
+            }
+            .buttonsF:-moz-focusring {
+                 outline: auto;
+            }
+            .buttonMainAnimationsvg {
+                display: block;
+                vertical-align: middle;
+            }
+           .buttonMainAnimation[hidden] {
+                display: none;
+            }
+            .buttonMainAnimation{
+                -webkit-animation: pulse 2s infinite;
+                animation: pulse 2s infinite;
+                border: 1px solid;
+                border-radius: 999px;
+                box-shadow: 0 0 0 1.5em transparent;
+                box-sizing: border-box;
+                
+                font-weight: 900;
+                -webkit-mask-image: none;
+                overflow: hidden;
+                padding: 1rem 2rem;
+                position: relative;
+                text-transform: uppercase;
+                
+            }
+            @-webkit-keyframes pulse {
+                0% {
+                    box-shadow: 0 0 0 0 rgb(93, 73, 165);
+                }
+            }
+            @keyframes pulse {
+                0% {
+                    box-shadow: 0 0 0 0 rgb(93, 73, 165);
+                }
+            }
+            .buttonsF:active{
+                background-color: rgb(87, 79, 79);
+            }
